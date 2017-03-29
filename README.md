@@ -1,8 +1,9 @@
-# [Myo-OSC](http://samy.pl/myo-osc/)
+# [Myo-OSC](http://samy.pl/myo-osc/) EDIT
 
 OSC bridge for Thalmic Myo gesture control armband for Windows and Mac OS X 10.8+.
+This build unlocks the EMG data and disables the vibration feedback.
 
-By [Samy Kamkar](http://samy.pl)
+By [Samy Kamkar](http://samy.pl) and modified by [Maximilian Weber](http://nichtdersoziologe.de) 
 
 Myo-OSC is a C++ application designed to take hand gestures, accelerometer, gyroscope and magnetometer data from the [Thalmic Labs Myo](https://www.thalmic.com/en/myo/) armband and output it over OSC. This allows incredible control of virtually any device or application just by waving or flailing your arm or hand around like a madman.
 
@@ -11,10 +12,6 @@ Binaries for both Windows and OS X are included in the root directory (myo-osc.w
 I've built this and integrated it to control various things in my house and car using Raspberry Pi and Arduinos, including lights (over RF), TV (over IR), receiver (over IR), iTunes, coffee machine (over BLE), music in my car (over BLE), presentations (over IR), and Ableton/music production/DJing/VJing (over MIDI and OSC).
 
 You can also send any OSC data over a network.
-
-by [@SamyKamkar](https://twitter.com/samykamkar) // <code@samy.pl> // <http://samy.pl> // Mar 3, 2014
-
-Code available on [github](http://samy.pl/myo-osc/)
 
 ------
 
@@ -74,11 +71,3 @@ We also use [oscpack](https://code.google.com/p/oscpack/), a C++ OSC (Open Sound
 
 #### Thalmic Labs Myo Alpha
 Currently, Thalmic Labs have only released Myo Alpha to select developers. Sign up for the Developer Kit coming out later this year or pre-order the consumer version [here](https://www.thalmic.com/en/myo/).
-
-## Questions?
-
-Feel free to contact me with any questions!
-
-You can reach me at <code@samy.pl>.
-
-Follow [@SamyKamkar](https://twitter.com/samykamkar) on Twitter or check out <http://samy.pl> for my other projects.
