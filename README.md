@@ -1,7 +1,7 @@
 # Myo-OSC: Nolock & Novib build
 
 OSC bridge for Thalmic Myo gesture control armband for Windows and Mac OS X 10.8+.
-This build unlocks the EMG data and disables the vibration feedback.
+**This build unlocks the EMG data and disables the vibration feedback!**
 
 By [Samy Kamkar](http://samy.pl) and modified by [Maximilian Weber](http://nichtdersoziologe.de) 
 
